@@ -1,3 +1,6 @@
+<img width="1159" height="877" alt="image" src="https://github.com/user-attachments/assets/11620620-0c41-4030-b2a1-badfb9a5e235" />
+
+
 # Image Color Analyzer Code Explanation
 
 ## 1. Core Technologies Used
