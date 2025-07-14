@@ -1,7 +1,5 @@
 # Image Color Analyzer Code Explanation
 
-This React application analyzes images to determine their CMYK color composition and displays the results in a visual dashboard. Let me break down how it works:
-
 ## 1. Core Technologies Used
 
 - **React**: The JavaScript framework for building the UI
@@ -115,8 +113,6 @@ Creates a modified version of the image showing only one CMYK channel by:
 
 ## 4. How CMYK Values Are Calculated
 
-The magic happens in these steps:
-
 1. Get RGB values from each pixel using canvas `getImageData()`
     
 2. Convert RGB to CMYK using the `color-convert` library
@@ -148,24 +144,3 @@ The code includes several optimizations:
     
 - Color grouping to avoid counting very similar colors separately
     
-
-## 6. UI Components
-
-The interface provides:
-
-- File upload area
-    
-- Image preview
-    
-- Analysis progress indicator
-    
-- CMYK pie chart visualization
-    
-- Top colors grid view
-    
-- Channel isolation tools
-    
-- Reset/upload new image button
-    
-
-This application provides a comprehensive analysis of an image's color composition with a focus on CMYK values, which is particularly useful for print design preparation.
