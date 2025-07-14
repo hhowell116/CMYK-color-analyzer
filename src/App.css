@@ -1,0 +1,90 @@
+.app-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.dropzone {
+  border: 2px dashed #ccc;
+  border-radius: 4px;
+  padding: 40px;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: background-color 0.3s;
+}
+body {
+  margin: 0;
+  background-color: #f5f5f5;
+}
+.dropzone.active {
+  background-color: #f0f0f0;
+}
+
+.image-preview {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.analyze-btn {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.analyze-btn:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.progress-container {
+  margin: 20px 0;
+}
+
+.color-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.color-item {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  position: relative;
+  color: white;
+  text-shadow: 0 0 2px black;
+  font-size: 0.9rem;
+  cursor: help;
+  transition: transform 0.2s;
+}
+
+.color-item:hover {
+  transform: scale(1.05);
+  z-index: 1;
+}
+
+.color-percentage {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2px 5px;
+  border-radius: 3px;
+}
+
+.chart-container {
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.results-section {
+  margin-top: 30px;
+}
